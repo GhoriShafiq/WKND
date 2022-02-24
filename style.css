@@ -1,0 +1,811 @@
+/*-------navbar start-------*/
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.menu
+{
+	width: 90%;
+	height: 14vh;
+	margin: auto;
+}
+.menu .nav
+{
+	list-style-type: none;
+}
+.menu .nav .menuitems
+{
+	float: left;
+	margin-left: 2%;
+	line-height: 85px;
+	font-size: 12px ;
+}
+.menu .nav #logo
+{
+	margin-right: 17% ;
+	margin-left: 6%;
+	font-size: 24px;
+}
+.menu .nav .menuitems a
+{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+.menu .nav .menuitems #search
+{
+	width: 100%;
+	height: 6vh;
+	background: #ebebe0;
+	padding-left: 4%;
+	padding-right: 5.9% ;
+	font-size: 16px;
+}
+.menu .nav .menuitems .searchbutton
+{
+	position: absolute;
+	top: 4.5%;
+	background: #ebebe0;
+	left: 85.5%;
+	border: none;
+}
+.menu .nav .menuitems a:hover
+{
+	background: yellow;
+}
+
+/*-------navbar end-----*/
+/*-------Header Start---*/
+.head
+{
+	width: 90%;
+	height: 80vh;
+	margin: auto;
+}
+.head img
+{
+	width: 100%;
+	height: 80vh;
+	z-index: -9;
+}
+.head .wkndadventures
+{
+	z-index: 99;
+	width: 80%;
+	height: 31vh;
+	background: white;
+	position: absolute;
+	top: 63%;
+	left: 10%;
+}
+.head .wkndadventures h1,.head .wkndadventures p
+{
+	padding: 2% 0 0 3%;
+}
+.head .wkndadventures p
+{
+	font-size: 19px;
+	line-height: 1.6;
+}
+.head .wkndadventures .veiw,#readmore
+{
+	width: 10%;
+	height: 6vh;
+	background: yellow;
+	margin: 2% 0 0 3% ;
+	border: none;
+	font-weight: bold;
+	font-size: 10px;
+}
+/*----Header End----*/
+/*---Last Articals Start----*/
+#articals
+{
+	width: 70%;
+	height: 63vh;
+	margin: 10% 0 0 13%;
+}
+#articals .articalsdivi1
+{
+	height: 63vh;
+	float: left;
+	width: 40%;
+	background: #EEEEEE;
+}
+#articals #articalsdiv2
+{
+	width: 60%;
+}
+#articals .articalsdivi1 h1,#articals .articalsdivi1 h2,#articals .articalsdivi1 p
+{
+	padding: 4% 0 0 12%;
+}
+#articals hr
+{
+	width: 20%;
+	height: 4px;
+	margin: 5% 0 0 12%;
+	background: yellow;
+	border: none;
+}
+#articals .articalsdivi1 h2
+{
+	font-size: 22px;
+	padding-top: 7%;
+}
+#articals .articalsdivi1 p
+{
+	font-size: 15px;
+	line-height: 1.6;
+}
+#articals #readmore
+{
+	width: 30%;
+	margin: 21% 0 0 12%;
+	font-size: 10px;
+}
+#articals #articalsdiv2 img 
+{
+	width: 100%;
+	height: 63vh;
+}
+/*-----Last Artical End----*/
+/*-----Recent Artical Start----*/
+#recentsarticals
+{
+	width: 70%;
+	height: 52vh;
+	margin: 7% 0 0 13%;
+}
+#recentsarticals h1
+{
+	font-size: 40px;
+	font-weight: 100;
+	line-height: 1.6;
+}
+#recentsarticals hr,#nextadventure #hr
+{
+	width: 9.3%;
+	height: 4px;
+	margin-top:2% ;
+	margin-bottom: 3%;
+	background: yellow;
+	border: none;
+}
+#recentsarticals .recentimg
+{
+	width: 25%;
+	height: 36vh;
+	float: left;
+}
+#recentsarticals img
+{
+	width: 93%;
+
+}
+
+
+/*-----Recent Artical End----*/
+/*-----Next Adventure Start----*/
+#nextadventure
+{
+	width: 70%;
+	height: 25vh;
+	margin: 0% 0 0 13%;
+}
+#nextadventure hr
+{
+	width: 100%;
+	margin: 3% 0 3% 0%;
+}
+#nextadventure #hr
+{
+	width: 7.3%;
+}
+#climbing
+{
+	top: 325%;
+}
+
+/*-----Next Adventure End----*/
+/*---------Want to go Start----*/
+.went
+{
+	width: 70%;
+	height: 64vh;
+	margin: 7% 0 0 13%;
+}
+.went h2
+{
+	padding: 3% 0 3% 0;
+
+}
+.went .recentimg
+{
+	width: 25%;
+	height: 36vh;
+	float: left;
+}
+.went img
+{
+	width: 93%;
+
+}
+.explore
+{
+	width: 15%;
+	height: 6vh;
+	background: black;
+	color: white;
+	font-weight: bolder;
+}
+
+/*---------Want to go End----*/
+.hline
+{
+	width: 70%;
+	margin: 0% 0 5% 13%;
+}
+/*------inbox Start-----*/
+.inbox
+{
+	width: 70%;
+	height: 32vh;
+	margin: 0% 0 5% 13%;
+}
+.inbox .inboxdivi2
+{
+	float: left;
+	height: 32vh;
+	width: 60%;
+	background: #EEEE;
+
+}
+.inbox #inboxdiv1
+{
+	width: 40%;
+}
+.inbox #inboxdiv1 img
+{
+	width: 100%;
+	height: 32vh;
+}
+.inbox .inboxdivi2 h1
+{
+	margin: 5% 0 0 5%;
+}
+.inbox .inboxdivi2 p
+{
+	margin: 3% 0 0 5%;
+	font-size: 12px;
+}
+.inbox .inboxdivi2 .email
+{
+	margin: 4% 0 0 5%;
+	height: 7vh;
+	padding: 2%;
+	background: #EAE6E6;
+	border: none;
+}
+.inbox .inboxdivi2 .button
+{
+	height: 7vh;
+	background: black;
+	color: white;
+	border: none;
+	width: 20%;
+	margin-left:3% ;
+}
+
+/*------inbox End-----*/
+/*-----Footer Start---*/
+.footer
+{
+	width: 90%;
+	height: 50vh;
+	margin: auto;
+	background: black;
+}
+.menu2
+{
+	width: 90%;
+	height: 14vh;
+	margin: auto;
+}
+.menu2 .nav2
+{
+	list-style-type: none;
+}
+.menu2 .nav2 .menuitems1
+{
+	float: left;
+	margin-left: 2%;
+	line-height: 85px;
+	font-size: 14px ;
+	line-height: 200px;
+}
+.menu2 .nav2 #logo2
+{
+	margin-right: 20% ;
+	margin-left: 3%;
+	font-size: 24px;
+	color: white;
+	line-height: 250px;
+}
+.menu2 .nav2 .menuitems1 a
+{
+	color: gray;
+	text-decoration: none;
+	font-weight: bold;
+}
+button.socailbutton
+{
+	width: 3.5% ;
+	height: 6vh;
+	margin-top: 8%;
+}
+button#marginbutton
+{
+	margin-left: 6%;
+}
+button.socailbutton2
+{
+	margin-left: -0.5%;
+}
+button#marginbutton2
+}
+.footerdiv
+{
+	
+	
+
+}
+.footerp
+{
+	clear: both;
+	color: gray;
+	margin-left: 8%;
+}
+
+
+/*-------navbar end-----*/
+
+/*-----Footer End---*/
+/*-----------------------------INDEX END PAGE------------------------------*/
+/*-----------------------------MAGAZINE START PAGE------------------------------*/
+.magazine
+{
+	width: 80%;
+	height: 80vh;
+	margin: auto;
+}
+.magazine h1
+{
+	margin-left: 2.5%;
+	margin-top: 2%;
+	margin-bottom: 2.5%;
+}
+/*---Last Articals Start----*/
+#articals2
+{
+	width: 90%;
+	height: 63vh;
+	
+}
+#articals2 #artdiv1
+{
+	margin-left: 3%;
+}
+#articals2 .articalsdivi12
+{
+	height: 63vh;
+	float: left;
+	width: 35%;
+	background: #EEEEEE;
+}
+#articals2 #articalsdiv22
+{
+	width: 62%;
+}
+#articals2 .articalsdivi12 h1,#articals2 .articalsdivi12 h2,#articals2 .articalsdivi12 p
+{
+	padding: 4% 0 0 1%;
+}
+#articals2 hr
+{
+	width: 20%;
+	height: 4px;
+	margin: 5% 0 0 4%;
+	background: yellow;
+	border: none;
+}
+#articals2 .articalsdivi12 h2
+{
+	font-size: 22px;
+	padding-top: 7%;
+}
+#articals2 .articalsdivi12 p
+{
+	font-size: 15px;
+	line-height: 1.6;
+}
+#readmore2
+{
+	height: 6vh;
+	background: yellow;
+	border: none;
+	font-weight: bold;
+	font-size: 10px;
+	width: 30%;
+	margin: 23% 0 0 1%;
+}
+#articals2 #articalsdiv22 img 
+{
+	width: 100%;
+	height: 63vh;
+}
+/*-----Last Artical End----*/
+/*-----All Artical Start----*/
+#allartical
+{
+	width: 70%;
+	height: 88vh;
+	margin: 7% 0 0 13%;
+}
+#allartical h1
+{
+	font-size: 40px;
+	font-weight: 100;
+	line-height: 1.6;
+}
+#allartical hr,#nextadventure #hr
+{
+	width: 9.3%;
+	height: 4px;
+	margin-top:2% ;
+	margin-bottom: 3%;
+	background: yellow;
+	border: none;
+}
+#allartical .recentimg
+{
+	width: 25%;
+	height: 36vh;
+	float: left;
+}
+#allartical img
+{
+	width: 93%;
+
+}
+
+
+/*-----All Artical End----*/
+/*------Member Only Start----*/
+
+.member
+{
+	width: 70%;
+	height: 58vh;
+	margin: 7% 0 5% 13%;
+}
+.member hr
+{
+	width: 9.3%;
+	height: 4px;
+	margin-top:2% ;
+	margin-bottom: 3%;
+	background: yellow;
+	border: none;
+}
+.member .memberimg
+{
+	width: 45%;
+	height: 36vh;
+	float: left;
+	margin-top: 3%;
+	filter: sepia(60%);
+}
+.member .memberimg img
+{
+	width: 95%;
+	height: 28vh;
+
+}
+.member .memberimg p
+{
+	font-size: 11px;
+	line-height: 2.6;
+}
+
+/*------Member Only End----*/
+/*------inbox Start-----*/
+.inbox
+{
+	width: 70%;
+	height: 32vh;
+	margin: 0% 0 5% 13%;
+}
+.inbox .inboxdivi2
+{
+	float: left;
+	height: 32vh;
+	width: 60%;
+	background: #EEEE;
+
+}
+.inbox #inboxdiv1
+{
+	width: 40%;
+}
+.inbox #inboxdiv1 img
+{
+	width: 100%;
+	height: 32vh;
+}
+.inbox .inboxdivi2 h1
+{
+	margin: 5% 0 0 5%;
+}
+.inbox .inboxdivi2 p
+{
+	margin: 3% 0 0 5%;
+	font-size: 12px;
+}
+.inbox .inboxdivi2 .email
+{
+	margin: 4% 0 0 5%;
+	height: 7vh;
+	padding: 2%;
+	background: #EAE6E6;
+	border: none;
+}
+.inbox .inboxdivi2 .button
+{
+	height: 7vh;
+	background: black;
+	color: white;
+	border: none;
+	width: 20%;
+	margin-left:3% ;
+}
+
+/*------inbox End-----*/
+/*-----Footer Start---*/
+.footer
+{
+	width: 90%;
+	height: 50vh;
+	margin: auto;
+	background: black;
+}
+.menu2
+{
+	width: 90%;
+	height: 14vh;
+	margin: auto;
+}
+.menu2 .nav2
+{
+	list-style-type: none;
+}
+.menu2 .nav2 .menuitems1
+{
+	float: left;
+	margin-left: 2%;
+	line-height: 85px;
+	font-size: 14px ;
+	line-height: 200px;
+}
+.menu2 .nav2 #logo2
+{
+	margin-right: 20% ;
+	margin-left: 3%;
+	font-size: 24px;
+	color: white;
+	line-height: 250px;
+}
+.menu2 .nav2 .menuitems1 a
+{
+	color: gray;
+	text-decoration: none;
+	font-weight: bold;
+}
+button.socailbutton
+{
+	width: 3.5% ;
+	height: 6vh;
+	margin-top: 8%;
+}
+button#marginbutton
+{
+	margin-left: 6%;
+}
+button.socailbutton2
+{
+	margin-left: -0.5%;
+}
+button#marginbutton2
+}
+.footerdiv
+{
+	
+	
+
+}
+.footerp
+{
+	clear: both;
+	color: gray;
+	margin-left: 8%;
+}
+
+
+/*-------navbar end-----*/
+
+/*-----Footer End---*/
+/*----------------------------------MAGAZINE PAGE END-------------------------*/
+/*----------------------------------FAQ PAGE START---------------------------*/
+/*---------FAQ Start------*/
+.faqdiv
+{
+	width: 90%;
+	margin: auto;
+	height: 111vh;
+	margin-bottom: 3%;
+}
+.faq
+{
+	width: 60%;
+	height: 110.5vh;
+	float: left;
+	margin-left: 8.3%;
+}
+.faq h2
+{
+	font-weight: 20;
+	margin-bottom: 3%;
+}
+.faq img
+{
+	width: 100%;
+	height: 70vh;
+	margin-bottom: 3%;
+}
+.faq p
+{
+	font-size: 20px;
+	line-height: 1.6;
+}
+.help
+{
+	width: 20%;
+	height: 20vh;
+	float: left;
+	margin-top: 2%;
+	margin-left: 7%;
+}
+.help h2
+{
+	font-weight: 20;
+	margin-bottom: 7%;
+	margin-top: 1%;
+}
+.help p
+{
+	font-size: 14px;
+	line-height: 1.6;
+}
+/*---------FAQ End------*/
+
+/*---------Audience Start------*/
+
+.audience
+{
+	width: 54%;
+	height: auto;
+	margin: 0 0 2% 13%;
+}
+.audience h3
+{
+	width: 100%;
+	font-weight:20 ;
+	margin-bottom: 3%;
+}
+.fa-minus
+{
+	padding-left: 49%;
+}
+.audience p
+{
+	line-height: 1.6;
+}
+.question
+{
+	width: 54%;
+	height: 32vh;
+	margin: 0 0 3% 13%;
+}
+.question h3
+{
+	border-bottom:solid 1px gray ;
+	border-top:solid 1px gray ;
+	font-weight:20 ;
+	height: 6vh;
+	line-height: 2;
+	font-size: 17px;
+}
+.fa-plus
+{
+	padding-left: 58%;
+}
+/*---------Audience End------*/
+
+/*----------------------------------FAQ PAGE END---------------------------*/
+/*----------------------------------ABOUT US PAGE START---------------------------*/
+
+.about
+{
+	width: 70%;
+	height: 87vh;
+	margin: 0 0 0 12%;
+}
+.about h1
+{
+	font-weight: 20;
+	margin-top: 3%;
+}
+.about hr
+{
+	width: 9.3%;
+	height: 4px;
+	margin-top:2% ;
+	margin-bottom: 3%;
+	background: yellow;
+	border: none;
+}
+.about p
+{
+	line-height: 1.6;
+}
+.about .divimg
+{
+	width: 25%;
+	height: 50vh;
+	float: left;
+	margin-top: 3%;
+	text-align: center;
+}
+.about .divimg h3
+{
+	line-height: 1.6;
+}
+.about .divimg p
+{
+	font-size: 10px;
+	margin-top: 5%;
+}
+.about .divimg .socailbutton
+{
+	width: 14%;
+	background: black;
+	color: white;
+	border: none;
+	margin-left: -2%;
+}
+/*----------------------------------ABOUT US PAGE END---------------------------*/
+.horiline
+{ 
+	margin: auto;
+	width: 80%;
+
+}
+#inboxmargin
+{
+	margin-top: 5%;
+}
+
+
